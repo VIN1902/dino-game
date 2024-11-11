@@ -12,3 +12,30 @@ body {
     align-items: center;
     min-height: 100vh;
 }
+
+.world {
+    overflow: hidden;
+    position: relative;
+}
+
+.score {
+    position: absolute;
+    right: 1vmin;
+    top: 1vmin;
+    font-size: 3vmin;
+}
+
+.start-screen {
+    background-color: hotpink;
+    color: white;
+    padding: 1rem;
+    border-radius: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hide {
+    display: none;
+}
